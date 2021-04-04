@@ -1,0 +1,54 @@
+package udemy;
+import java.net.*;
+import java.nio.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.io.*;
+public class filereader {
+
+	public static void mn(String[] args) throws Exception{
+		   URL link = new URL("https://www.gutenberg.org/files/98/98-0.txt");
+	        BufferedReader in = new BufferedReader(
+	        new InputStreamReader(link.openStream()));
+
+	        String inputLine;
+	      String text="";
+	    while ((inputLine = in.readLine()) != null)
+	            text=text + inputLine;
+	        in.close();
+	      //  String text = "This is text to be saved in file";
+System.out.println(text);
+String fileName="";
+	     //   try {
+	          // System.out.println(Files.write(Paths.get("myfile.txt"), text.getBytes())); 
+	        	//Files.write(Paths.get("my-file.txt"), text.getBytes());
+	            String path = "";    try
+	            {
+	                File file = new File( fileName );
+
+	                // if file doesnt exists, then create it 
+	                if ( ! file.exists( ) )
+	                {
+	                    file.createNewFile( );
+	                }
+
+	                FileWriter fw = new FileWriter( file.getAbsoluteFile( ) );
+	                BufferedWriter bw = new BufferedWriter( fw );
+	                bw.write( text );
+	                bw.close( );
+	                //System.out.println("Done writing to " + fileName); //For testing 
+	             }
+	             catch( IOException e )
+	             {
+	             System.out.println("Error: " + e);
+	             e.printStackTrace( );
+	             }
+	         //catch (IOException e) {
+	           // e.printStackTrace();
+	      //  }
+	 
+
+	}
+
+}

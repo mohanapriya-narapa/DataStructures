@@ -1,0 +1,25 @@
+package emory;
+
+import java.util.Stack;
+
+public class stringreverse {
+
+	public static void main(String[] args) {
+		String str="vanav";
+		StringBuilder sb=new StringBuilder();
+		
+		Stack<Character> st=new Stack<Character>();
+		for(int i=0;i<str.length();i++)
+		{
+			st.push(str.charAt(i));
+		}
+		for(int i=0;i<str.length();i++)
+		{sb.append(st.pop());
+		}System.out.println(sb);
+		if(str.equals(sb))
+		{
+			System.out.println("true");
+		}
+	}
+
+}

@@ -1,0 +1,33 @@
+package leetcode;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.util.Scanner;
+class arraylist
+{
+	public static void main(String args[])
+	{
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0)
+		{
+			int i, j, y=1, temp=0, r=0, count = 0;
+			int n = scan.nextInt();
+			int a[] = new int[n];
+			ArrayList <Integer> al = new ArrayList <Integer>();
+			for(i=0; i<n; i++)
+			a[i] = scan.nextInt();
+			int s1 = scan.nextInt();
+			int s2 = scan.nextInt();
+			for(i=0; i<s1-1; i++)
+			al.add(a[i]);
+			for(i=s2-1; i>=s1-1; i--)
+			al.add(a[i]);
+			for(i=s2; i<n; i++)
+			al.add(a[i]);
+			for(i=0; i<n; i++)
+			System.out.print(a[i]);
+			System.out.println();
+		}
+	}
+}

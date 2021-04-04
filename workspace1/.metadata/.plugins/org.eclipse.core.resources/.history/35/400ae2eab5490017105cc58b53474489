@@ -1,0 +1,15 @@
+package seaching;
+
+public class search {
+public static void main(String[] args)
+{
+	
+}
+
+
+public int procedure(arr,x)
+{
+	return i;
+}
+	
+	}

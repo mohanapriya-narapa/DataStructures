@@ -1,0 +1,112 @@
+package udemy;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.nio.channels.Channels;
+import java.nio.channels.ReadableByteChannel;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.SortedSet;
+import java.util.TreeMap;
+import java.util.TreeSet;
+
+public class asg1prt2 {
+
+	public asg1prt2() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {String url = "https://www.gutenberg.org/files/55400/55400-0.txt";
+		String file= "C:\\Users\\Priya\\op1.txt";
+		String file2 = "C:\\Users\\Priya\\op2.txt";
+
+		ReadableByteChannel readableBC = null;
+		FileOutputStream fileOS = null;
+		try {
+			URL urlObj = new URL(url);
+			readableBC = Channels.newChannel(urlObj.openStream());
+			fileOS = new FileOutputStream(file);
+
+			fileOS.getChannel().transferFrom(readableBC, 0, Long.MAX_VALUE);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (fileOS != null) {
+					fileOS.close();
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			try {
+				if (readableBC != null) {
+					readableBC.close();
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		String contents = new String();
+		try {
+			contents = new String(Files.readAllBytes(Paths.get(file)));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// System.out.println(contents);
+		contents = contents.toLowerCase().replaceAll("[^a-z]", " ").replaceAll(" {2}+", " ");
+		ArrayList<String> allWords = new ArrayList<String>();
+		Collections.addAll(allWords, contents.split(" "));
+		HashSet<String> uniqueWords = new HashSet<String>();
+		uniqueWords.addAll(allWords);
+		// allWords = Arrays.asList(contents.split(" "));
+		TreeMap<String, Integer> wc = new TreeMap<String, Integer>();
+		Iterator<String> it = uniqueWords.iterator();
+		while (it.hasNext()) {
+			String temp = it.next();
+			wc.put(temp, Collections.frequency(allWords, temp));
+		}//entriesSortedByValues(wc);
+		try {
+			FileWriter fw = new FileWriter(file2);
+			fw.write(entriesSortedByValues(wc).toString());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}String text="";
+		SortedSet sd = entriesSortedByValues(wc);
+		Iterator<Entry<String, Integer>> it1 = sd.iterator();
+		while(it1.hasNext())
+		{
+			Entry<String, Integer> temp1 = it1.next();
+			text=text+ temp1.getKey()+" "+temp1.getValue() +"\n";
+		}
+		System.out.println(wc);
+		
+	
+	}
+		public static <K, V extends Comparable<? super V>> SortedSet<Map.Entry<K, V>> entriesSortedByValues(Map<K, V> map) {
+				SortedSet<Map.Entry<K, V>> sortedEntries = new TreeSet<Map.Entry<K, V>>(new Comparator<Map.Entry<K, V>>() {
+					@Override
+					public int compare(Map.Entry<K, V> e1, Map.Entry<K, V> e2) {
+						int res = e2.getValue().compareTo(e1.getValue());
+						return res != 0 ? res : 1;
+					}
+				});
+				sortedEntries.addAll(map.entrySet());
+				return sortedEntries;
+			}
+		
+	}	
+
+

@@ -1,0 +1,18 @@
+package strings;
+
+import java.util.HashSet;
+
+public class duplicates {
+	public static void main(String args[])
+	{
+String str="hdhddsdfafd";
+char[] ch=str.toCharArray();
+HashSet<Character> hs=new HashSet();
+for(int i=0;i<hs.size();i++)
+{
+	hs.add(ch[i]);
+}for(int i=0;i<hs.size();i++)
+{
+	System.out.println(hs);
+}
+}}

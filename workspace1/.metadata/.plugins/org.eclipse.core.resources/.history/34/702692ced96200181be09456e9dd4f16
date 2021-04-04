@@ -1,0 +1,10 @@
+package javacode;
+import java.util.*;
+public class date {
+
+	public static void main(String[] args) {
+	Date date=new Date("25 Mar 2015" );
+	System.out.println(date.toString());
+	}
+
+}

@@ -1,0 +1,27 @@
+package udemy;
+import java.net.*;
+import java.nio.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.io.*;
+public class countword {
+
+	public static void main(String[] args) throws Exception{
+		   URL link = new URL("https://www.gutenberg.org/files/98/98-0.txt");
+	        BufferedReader in = new BufferedReader(
+	        new InputStreamReader(link.openStream()));
+
+	        String inputLine;
+	      String text="";
+	    while ((inputLine = in.readLine()) != null)
+	            text=text + inputLine ;
+	        in.close();
+	      //  String text = "This is text to be saved in file";
+System.out.println(text);
+
+	 
+
+	}
+
+}

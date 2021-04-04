@@ -1,0 +1,10 @@
+package arrays1;
+
+public class stringvowelreverse {
+
+	public static void main(String[] args) {
+	String str="leetcode";
+	
+	}
+
+}

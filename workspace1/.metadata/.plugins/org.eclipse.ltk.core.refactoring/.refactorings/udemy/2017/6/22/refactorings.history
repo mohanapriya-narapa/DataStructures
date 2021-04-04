@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;node.java&apos; to &apos;udemy/uedemydatastuct/circularlinked&apos;&#x0D;&#x0A;- Original project: &apos;udemy&apos;&#x0D;&#x0A;- Destination element: &apos;udemy/uedemydatastuct/circularlinked&apos;&#x0D;&#x0A;- Original element: &apos;linkedlist.node.java&apos;" description="Copy compilation unit" destination="/uedemydatastuct&lt;circularlinked" element1="/uedemydatastuct&lt;linkedlist{node.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1496399193448" units="1" version="1.0"/>
+</session>

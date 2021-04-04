@@ -1,0 +1,10 @@
+package hashing;
+
+public class hashing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

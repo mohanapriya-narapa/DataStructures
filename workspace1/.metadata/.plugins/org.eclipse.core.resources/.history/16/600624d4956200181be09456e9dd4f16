@@ -1,0 +1,10 @@
+package javacode;
+
+public class randnums {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

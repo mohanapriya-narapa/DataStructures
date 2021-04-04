@@ -1,0 +1,33 @@
+package arrays1;
+
+import java.util.Scanner;
+
+public class stringvowelreverse {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int arr[][]=new int[n][n];
+		int dp[][]=new int[n][n];
+		for(int k=0;k<n;k++)
+		{
+			for(int h=0;h<n;h++)
+			{
+				arr[k][h]=sc.nextInt();
+				
+			}dp[k][h]=1;
+		}
+		int ans=1;int i,j;
+		for(i=1;i<n;i++)
+		{
+			for(j=1;j<n;j++)
+			{
+				if(arr[i][j]==arr[i-1][j] && arr[i][j]==arr[i][j-1] && arr[i][j]==arr[i-1][j-1])
+				dp[i][j]+=Math.min(dp[i-1][j],Math.min(dp[i][j-1],dp[i-1][j-1]));
+				ans=Math.max(ans,dp[i][j]);
+			}
+		}
+		System.out.println(ans);
+		}
+
+}

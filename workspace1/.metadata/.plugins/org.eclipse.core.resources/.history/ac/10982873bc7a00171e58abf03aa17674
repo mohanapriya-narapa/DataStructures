@@ -1,0 +1,14 @@
+
+package hashing;
+import java.io.*;
+public class frequency {
+
+	public static void main(String[] args) {
+		String str="tree";int[] counter = new int[26];
+	for(int i=0;i<str.length();i++)
+	{
+		counter[str.charAt(i) - 'a']++;	
+	}System.out.println(counter.toString());
+	}
+
+}

@@ -1,0 +1,10 @@
+package interview;
+
+public class contigoussum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

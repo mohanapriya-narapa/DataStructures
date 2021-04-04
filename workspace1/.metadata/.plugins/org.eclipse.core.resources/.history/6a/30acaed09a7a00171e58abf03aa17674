@@ -1,0 +1,22 @@
+package hashing;
+
+import java.util.HashSet;
+
+public class mismatch {
+
+	public static void main(String[] args) {int sum=0;
+		int a[]=new int[] {1,2,2,4};HashSet<Integer> st=new HashSet<Integer>();
+		for(int i=0;i<a.length;i++)
+		{
+			if(!st.add(a[i]))
+			{
+				int x=a[i];
+			}
+		}for(int i=0;i<a.length;i++)
+		{
+			if(a[i]!=x)
+				sum+=a[i];
+		}
+	}
+
+}
