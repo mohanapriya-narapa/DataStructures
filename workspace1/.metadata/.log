@@ -9669,3 +9669,320 @@ org.eclipse.swt.SWTError: No more handles
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SESSION 2022-04-10 11:23:48.391 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mohanapriyanarapareddy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mohanapriyanarapareddy/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-04-10 11:36:59.217
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-10 11:36:59.217
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1dd76982,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e76a66f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-04-10 11:37:03.778
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.gef.ui.palette_view" id and the "Palette" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-04-10 11:37:03.788
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.common.snippets.internal.ui.SnippetsView" id and the "Snippets" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-04-10 11:37:03.794
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.builds.navigator.builds" id and the "Builds" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-04-10 11:37:03.794
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.commons.repositories.ui.navigator.Repositories" id and the "Team Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-04-10 11:37:03.794
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.tasks.ui.views.tasks" id and the "Task List" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-04-10 11:37:03.795
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.tasks.ui.views.repositories" id and the "Task Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-04-10 11:37:03.796
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.apidocs.rcp.views.apidocs" id and the "API Docs" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-04-10 11:37:03.796
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.models.rcp.views.projectCoordinates" id and the "Project Coordinates" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-04-10 11:37:03.797
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.models.rcp.views.modelRepositories" id and the "Model Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-04-10 11:37:03.797
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.models.rcp.views.dependencyOverview" id and the "Dependency Overview" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-04-10 11:37:03.798
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.snipmatch.rcp.views.snippets" id and the "Snippets" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+!SESSION 2022-04-26 18:31:08.855 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mohanapriyanarapareddy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mohanapriyanarapareddy/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-04-26 18:31:13.354
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2022-04-26 18:31:14.975
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-26 18:31:14.975
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2bd2430f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2890e479,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2022-04-29 20:35:05.408 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mohanapriyanarapareddy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mohanapriyanarapareddy/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-04-29 20:35:11.827
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2022-04-29 20:35:13.261
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-29 20:35:13.262
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@fbe8fd3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ab268bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-04-29 20:42:56.238
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2022-04-29 20:42:56.238
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-04-29 20:42:56.238
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-04-29 20:42:56.238
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.238
+!MESSAGE Software being installed: Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.238
+!MESSAGE Software currently installed: Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.group 5.11.0.202103091610-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.238
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.238
+!MESSAGE Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.jar 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.238
+!MESSAGE Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.jar 5.11.0.202103091610-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.238
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.238
+!MESSAGE From: Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.238
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.group [6.1.0,6.2.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.238
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.238
+!MESSAGE From: Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.group 5.11.0.202103091610-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.238
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.11.0.202103091610-r,5.11.0.202103091610-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.238
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.238
+!MESSAGE From: Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.238
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [6.1.0.202203080745-r,6.1.0.202203080745-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-04-29 20:42:56.241
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2022-04-29 20:42:56.242
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-04-29 20:42:56.242
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-04-29 20:42:56.242
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.242
+!MESSAGE Software being installed: Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.242
+!MESSAGE Software currently installed: Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.group 5.11.0.202103091610-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.242
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.242
+!MESSAGE Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.jar 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.242
+!MESSAGE Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.jar 5.11.0.202103091610-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.242
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.242
+!MESSAGE From: Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.242
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.group [6.1.0,6.2.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.242
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.242
+!MESSAGE From: Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.group 5.11.0.202103091610-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.242
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.11.0.202103091610-r,5.11.0.202103091610-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.242
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.242
+!MESSAGE From: Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.242
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [6.1.0.202203080745-r,6.1.0.202203080745-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-04-29 20:42:56.247
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2022-04-29 20:42:56.247
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-04-29 20:42:56.247
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-04-29 20:42:56.247
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE Software being installed: Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE Software currently installed: Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.group 5.11.0.202103091610-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.247
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.jar 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.jar 5.11.0.202103091610-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.247
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE From: Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.group [6.1.0,6.2.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.247
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE From: Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.group 5.11.0.202103091610-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.11.0.202103091610-r,5.11.0.202103091610-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.247
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE From: Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [6.1.0.202203080745-r,6.1.0.202203080745-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-04-29 20:42:56.247
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2022-04-29 20:42:56.247
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-04-29 20:42:56.247
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-04-29 20:42:56.247
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE Software being installed: Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE Software currently installed: Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.group 5.11.0.202103091610-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.247
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.jar 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.jar 5.11.0.202103091610-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.247
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE From: Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.group [6.1.0,6.2.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.247
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE From: Java implementation of Git 5.11.0.202103091610-r (org.eclipse.jgit.feature.group 5.11.0.202103091610-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.11.0.202103091610-r,5.11.0.202103091610-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-04-29 20:42:56.247
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE From: Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-04-29 20:42:56.247
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [6.1.0.202203080745-r,6.1.0.202203080745-r]
+!SESSION 2022-04-29 20:43:25.807 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/mohanapriyanarapareddy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/mohanapriyanarapareddy/Desktop/DataStructures/workspace1/ -product org.eclipse.epp.package.java.product -keyring /Users/mohanapriyanarapareddy/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-04-29 20:43:30.290
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-29 20:43:30.290
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@160546b1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@103e7c7c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-29 20:43:30.290
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c3710b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8b1202a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
